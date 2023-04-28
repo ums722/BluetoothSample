@@ -27,7 +27,7 @@ class AndroidBluetoothController(private val context: Context) : BluetoothContro
     }
 
     private val _scannedDevices = MutableStateFlow<List<BluetoothDeviceEntity>>(emptyList())
-    override val scannedDevice: StateFlow<List<BluetoothDeviceEntity>>
+    override val scannedDevices: StateFlow<List<BluetoothDeviceEntity>>
         get() = _scannedDevices.asStateFlow()
 
     private val _pairedDevices = MutableStateFlow<List<BluetoothDeviceEntity>>(emptyList())

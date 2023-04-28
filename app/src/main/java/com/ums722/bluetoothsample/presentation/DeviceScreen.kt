@@ -1,4 +1,7 @@
 package com.ums722.bluetoothsample.presentation
 
-class DeviceScreen {
+import androidx.compose.runtime.Composable
+
+@Composable
+fun DeviceScreen() {
 }

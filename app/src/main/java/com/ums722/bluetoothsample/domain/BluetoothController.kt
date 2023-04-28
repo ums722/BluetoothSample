@@ -1,6 +1,6 @@
 package com.ums722.bluetoothsample.domain
 
-import android.bluetooth.BluetoothDevice
+import com.ums722.bluetoothsample.domain.model.BluetoothDevice
 import kotlinx.coroutines.flow.StateFlow
 
 interface BluetoothController {
